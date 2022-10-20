@@ -17,3 +17,34 @@ int main()
 		}
 	return 0;
 }
+//第二题
+int main()
+{
+	int row = 5;
+	int i, j;
+	for (i = 0; i < row; i++)
+	{
+		for (j = 0; j <= i; j++)
+		{
+			printf("$");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+//第三题
+int main()
+{
+	int row = 6;
+	int i, j;
+	char ch;
+	for (i = 0, ch = 'F'; i < row; i++, ch--)
+	{
+		for (j = 0, ch = 'F'; j <= i; j++, ch--)
+		{
+			printf("%c", ch);
+		}
+		printf("\n");
+	}
+	return 0;
+}
